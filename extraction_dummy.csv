@@ -1,0 +1,4 @@
+Study ID,Biomarker,Subgroup,Outcome,Measure,Effect,Low,High,Pos_ev,Pos_total,Neg_ev,Neg_total
+Liu 2016,TILs (≥30%),TILs,pCR,OR,5.23,2.08,13.13,23,36,19,80
+Hong 2021,TILs,TILs,DFS,HR,0.50,0.31,0.81,,,,
+Prat 2021,Tumor cellularity / TILs,TILs,OS,HR,0.43,0.20,0.92,,,,
