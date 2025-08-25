@@ -4,7 +4,7 @@
 ![Reproducibility](https://img.shields.io/badge/Reproducible-100%25-brightgreen)  
 ![OpenScience](https://img.shields.io/badge/Open%20Science-%F0%9F%8C%90-lightgrey)  
 
-📊 **Reproducible Meta-Analysis Package** — Includes code, dummy data, and journal-ready figures for biomarkers and neoadjuvant therapy outcomes. Designed for transparency and open science practices, following Cochrane-style methods (random-effects, heterogeneity, Egger’s test, Trim-and-Fill, subgroup analyses).  
+📊 **Reproducible meta-analysis of tumor biomarkers and neoadjuvant outcomes (pCR, DFS, OS) with forest plots, funnel plots, Egger’s regression, Trim-and-Fill, and leave-one-out sensitivity analyses. 
 
 ---
 
