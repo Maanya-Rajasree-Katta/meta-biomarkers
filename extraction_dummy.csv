@@ -1,4 +1,12 @@
+mkdir -p data
+cat > data/extraction_dummy.csv <<‘EOF’
 Study ID,Biomarker,Subgroup,Outcome,Measure,Effect,Low,High,Pos_ev,Pos_total,Neg_ev,Neg_total
-Liu 2016,TILs (≥30%),TILs,pCR,OR,5.23,2.08,13.13,23,36,19,80
-Hong 2021,TILs,TILs,DFS,HR,0.50,0.31,0.81,,,,
-Prat 2021,Tumor cellularity / TILs,TILs,OS,HR,0.43,0.20,0.92,,,,
+Liu 2016,TILs (≥30%),TILs,pcr,OR,,,,23,36,19,80
+Inoue 2017,TILs (3-grade),TILs,pcr,OR,4.32,1.04,23.33,,,,
+Hong 2021,TILs,TILs,dfs,HR,0.50,0.31,0.81,,,,
+Denkert 2018,TILs,TILs,dfs,HR,0.94,0.89,0.99,,,,
+Hwang 2018,TILs,TILs,pcr,OR,,,,57,127,16,181
+Kim 2023,PIK3CA mutation,PIK3CA,pcr,OR,,,,3,12,16,24
+Almekinders 2022,TILs,TILs,dfs,HR,0.54,0.29,1.01,,,,
+Prat 2021,Tumor cellularity / TILs,TILs,os,HR,0.43,0.20,0.92,,,,
+EOF
