@@ -1,8 +1,13 @@
+# Core
 numpy>=1.26,<3
 pandas>=2.2,<3
 matplotlib>=3.8,<3.10
 scipy==1.16.1
 statsmodels==0.14.5
 pillow>=10.0
+
+# Optional (only if you use --trimfill r)
 rpy2>=3.6
+
+# Time zone data for pandas (safe on all platforms)
 tzdata>=2024.1
